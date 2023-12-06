@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Service Form</title>
+</head>
+
+    <h1>Customer Service Form</h1>
+    <form method="POST" action="/">
+	<body>
+	<style>
+		.my-class  {
+			overflow: auto;
+		}
+		.my-class table {
+			border: 1px;
+			table-layout: fixed;
+			border-collapse: collapse;
+			border-spacing: 1px;
+			text-align: left;
+		}
+		.my-class caption {
+			caption-side: top;
+			text-align: left;
+		}
+		.my-class th {
+			border: 1px;
+			background-color: #FFFFFF;
+			padding: 5px;
+		}
+		.my-class td {
+			border: 1px;
+			color: #000000;
+			padding: 5px;
+		}
+	</style>
+	<div class="my-class" role="region" tabindex="0">
+	<table>
+		<caption></caption>
+		<thead>
+		<tr>
+			<th></th>
+			<th></th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td>First Name:</td>
+			<td><input type="text" name="first_name" id="first_name"></td>
+		</tr>
+		<tr>
+			<td>Last Name:</td>
+			<td><input type="text" name="last_name" id="last_name"></td>
+		</tr>
+		<tr>
+			<td>Company:</td>
+			<td><input type="text" name="company" id="company"></td>
+		</tr>
+		<tr>
+			<td>Country:</td>
+			<td><input type="text" name="country" id="country"></td>
+		</tr>
+		<tr>
+			<td>Customer Service:</td>
+			<td><textarea name="customer_service" rows="4" cols="50"></textarea></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="submit" value="Submit"></td>
+		</tr>
+		<tbody>
+	</table>
+	</div>
+	
+    </form>
+</body>
+</html>
